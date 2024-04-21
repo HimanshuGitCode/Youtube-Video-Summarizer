@@ -33,4 +33,7 @@ def generate_gemini_content(transcript_text,prompt):
     model=genai.GenerativeModel("gemini-pro")
     response=model.generate_content(prompt+transcript_text)
     return response.text
+
+st.title("Youtube Transcript to Detailed Notes Converter")
+youtube_link = st.text_input("Enter the Youtube Video URL : ")
     
