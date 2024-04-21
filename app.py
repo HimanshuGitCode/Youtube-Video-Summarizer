@@ -8,7 +8,7 @@ from youtube_transcript_api import YouTubeTranscriptApi #it will try to idea of 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-prompt = """You are a Youtube Video Summarizer. You will be taking the transcript text of a Youtube video and generating a summary of the video in points within 350 words. The transcript text will be appended here : """
+prompt = """You are a Youtube Video Summarizer. You will be taking the transcript text of a Youtube video and generating a summary of the video in points within 350 words. Please Provide the summary of the text given here: """
 
 #getting the transcript of the youtube video 
 
@@ -42,3 +42,11 @@ youtube_link = st.text_input("Enter the Youtube Video URL : ")
 if youtube_link:
     video_id = youtube_link.split("=")[1]
     st.image(f"https://img.youtube.com/vi/{video_id}/0.jpg",use_column_width=True)
+    
+if st.button("Get Detailed Notes"):
+    transcript_text = extract_transcript_details(youtube_link)
+    
+    if transcript_text:
+        summary = generate_gemini_content(transcript_text,prompt)
+        st.markdown("## Detailed Notes:")
+        st.write(summary)
