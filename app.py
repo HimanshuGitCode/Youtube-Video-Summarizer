@@ -50,3 +50,11 @@ if st.button("Get Detailed Notes"):
         summary = generate_gemini_content(transcript_text,prompt)
         st.markdown("## Detailed Notes:")
         st.write(summary)
+        
+st.markdown("---")
+st.write(
+    "Made By Himanshu Singh [#Linkedin](https://www.linkedin.com/in/himanshu-singh01/) !"
+)
+st.markdown(
+    "More infos and :star: at [github.com/himanshugitcode/Youtube-Video-Summarizer](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer)"
+)
