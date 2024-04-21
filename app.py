@@ -8,7 +8,7 @@ from youtube_transcript_api import YouTubeTranscriptApi #it will try to idea of 
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-prompt = """You are a Youtube Video Summarizer. You will be taking the transcript text of a Youtube video and generating a summary of the video in points within 350 words. Please Provide the summary of the text given here: """
+prompt = """You are a YouTube Video Summarizer tasked with providing an in-depth analysis of a video's content. Your goal is to generate a comprehensive summary that captures the main points, key arguments, and supporting details within a 750-word limit. Please thoroughly analyze the transcript text provided and offer a detailed summary, ensuring to cover all relevant aspects of the video: """
 
 #getting the transcript of the youtube video 
 
