@@ -2,6 +2,9 @@
 
 This repository contains a Python application built with Streamlit that converts YouTube video transcripts into detailed notes using Google's Generative AI.
 
+![1]([Image URL](https://drive.google.com/drive/u/1/home))
+
+
 ## Overview
 
 The application allows users to input a YouTube video URL, which is then used to extract the transcript using the `youtube_transcript_api`. The extracted transcript is then fed into Google's Generative AI model (Gemini Pro) along with a predefined prompt to generate a detailed summary of the video content.
