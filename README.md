@@ -2,7 +2,7 @@
 
 This repository contains a Python application built with Streamlit that converts YouTube video transcripts into detailed notes using Google's Generative AI.
 
-![1]([Image URL](https://drive.google.com/drive/u/1/home))
+![1](https://drive.google.com/drive/u/1/home)
 
 
 ## Overview
