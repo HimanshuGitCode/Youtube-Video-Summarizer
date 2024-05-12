@@ -57,4 +57,3 @@ st.write(
 )
 st.markdown(
     "More infos and :star: at [github.com/himanshugitcode/Youtube-Video-Summarizer](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer)"
-)
