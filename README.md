@@ -3,7 +3,7 @@
 This repository contains a Python application built with Streamlit that converts YouTube video transcripts into detailed notes using Google's Generative AI.
 
 ![1](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer/blob/main/img/Screenshot%20(1051).png)
-![2](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer/blob/main/img/Screenshot%20(1052).png))
+![2](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer/blob/main/img/Screenshot%20(1052).png)
 
 
 ## Overview
