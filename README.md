@@ -9,12 +9,13 @@ The application allows users to input a YouTube video URL, which is then used to
 ## Features
 
 - **YouTube Video URL Input**: Users can input the URL of the YouTube video they want to summarize.
-- 
+  
 - **Thumbnail Display**: The application displays the thumbnail image of the input YouTube video.
+  
 - **Transcript Extraction**: Utilizes the `youtube_transcript_api` to extract the transcript from the provided YouTube video URL.
-- 
+
 - **Generation of Detailed Notes**: Utilizes Google's Generative AI model (Gemini Pro) to generate a detailed summary of the video content based on the extracted transcript and a predefined prompt.
-- 
+  
 - **Streamlit Interface**: The application is built using Streamlit, allowing for a user-friendly and interactive interface.
 
 ## Installation and Usage
