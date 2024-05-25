@@ -56,4 +56,5 @@ st.write(
     "Made By Himanshu Singh [#Linkedin](https://www.linkedin.com/in/himanshu-singh01/) !"
 )
 st.markdown(
-    "More infos and :star: at [github.com/himanshugitcode/Youtube-Video-Summarizer](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer)"
+    "More infos and :star: at [github.com/himanshugitcode/Youtube-Video-Summarizer](https://github.com/HimanshuGitCode/Youtube-Video-Summarizer)  !"
+)
